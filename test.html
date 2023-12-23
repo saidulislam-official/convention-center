@@ -6,6 +6,8 @@
     <title>Bootstrap demo</title>
     <!-- bs css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- fontawesome icon  -->
+    <script src="https://kit.fontawesome.com/0c43730857.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <!-- header start -->
@@ -39,9 +41,175 @@
               </div>
             </div>
           </nav>
+          <!-- carousel start  -->
+          <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block mb-4">
+                  <h1>First slide label The perfect venue for your next event</h1>
+                  <p>Some representative placeholder content for the first slide.</p>
+                  <button type="button" class="btn btn-light text-primary">Book Now</button >   
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block mb-4">
+                  <h1>Second slide label The perfect venue for your next event</h1>
+                  <p>Some representative placeholder content for the second slide.</p>
+                  <button type="button" class="btn btn-light text-primary">Book Now</button >  
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="images/banner.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block mb-4">
+                  <h1>Third slide label The perfect venue for your next event</h1>
+                  <p>Some representative placeholder content for the third slide.</p>
+                  <button type="button" class="btn btn-light text-primary">Book Now</button >
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+           <!-- carousel end  -->
     </header>
     <!-- header end -->
-
+    <!-- main start -->
+    <section class="m-5 d-flex align-items-center gap-5 ">
+            <div>
+                <img  src="images/wedding.png" alt="">
+            </div>
+            <div>
+                <h1>Every moment is Precious </h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                <button type="button" class="btn btn-primary p-2">Explore our album <i class="fa-solid fa-arrow-right"></i></button>
+            </div> 
+            
+      </section>
+      <!-- section 2nd part start -->
+      <section class="m-5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <img src="images/wedding.png" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6">
+              <h1>Every moment is Precious </h1>
+              <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+              <button type="button" class="btn btn-primary p-2">Explore our album <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section 2nd part end -->
+      <!-- section 3rd part start -->
+      <section class="m-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <h3 class="text-center mb-5">Our Packages</h3>
+                <div class="col-3 mt-5 mb-5">
+                    <h2>$300</h2>
+                    <h3>Business Fair</h3>
+                    <p>For most businesses event like book fair, craft fair.</p>
+                    <div>
+                      <div  class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">limited space access</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Secuirty facility</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">event support</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Decoration design</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Per day bill access</p>
+                      </div>
+                    </div>
+                    <button type="button" class="btn text-light btn-primary mt-5 mb-1">
+                      choose plan
+                    </button>
+                </div> 
+                <div class="col-3 mt-5 mb-5">
+                    <h2>$300</h2>
+                    <h3>Business Fair</h3>
+                    <p>For most businesses event like book fair, craft fair.</p>
+                    <div>
+                      <div  class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">limited space access</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Secuirty facility</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">event support</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Decoration design</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Per day bill access</p>
+                      </div>
+                    </div>
+                    <button type="button" class="btn text-light btn-primary mt-5 mb-1">
+                      choose plan
+                    </button>
+                </div> 
+                <div class="col-3 rounded-4 p-5 m-0 bg-primary text-light">
+                  <div class="position-relative">
+                    <div class="position-absolute top-0 end-0 ">
+                      <h5 class="m-0 p-0 bg-danger p-2 rounded-3">Hot</h5>
+                    </div>
+                  </div>
+                    <div>
+                    <h2>$300</h2>
+                    <h3>Business Fair</h3>
+                    <p>For most businesses event like book fair, craft fair.</p>
+                    <div>
+                      <div  class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">limited space access</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Secuirty facility</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">event support</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Decoration design</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Per day bill access</p>
+                      </div>
+                    </div>
+                    <button type="button" class="btn text-primary btn-light mt-5 mb-1">
+                      choose plan
+                    </button>
+                    </div>
+                </div> 
+                <div class="col-3 mt-5 mb-5">
+                    <h2>$300</h2>
+                    <h3>Business Fair</h3>
+                    <p>For most businesses event like book fair, craft fair.</p>
+                    <div>
+                      <div  class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">limited space access</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Secuirty facility</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">event support</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Decoration design</p>
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mb-1"><i class="fa-solid fa-check"></i><p class="m-0">Per day bill access</p>
+                      </div>
+                    </div>
+                    <button type="button" class="btn text-light btn-primary mt-5 mb-1">
+                      choose plan
+                    </button>
+                </div> 
+            </div>
+        </div>
+      </section>
+    <!-- main end -->
     <!-- bs js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
